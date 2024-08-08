@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <div>gg</div>
+  <div class="border border-black bg-gray-500 p-5">gg</div>
 </template>
