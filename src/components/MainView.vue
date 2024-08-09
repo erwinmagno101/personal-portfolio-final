@@ -147,6 +147,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   animation: spin 5s linear infinite paused;
+  transition:
+    width 0.2s,
+    height 0.2s ease-in-out;
 }
 
 .container::before {
@@ -170,6 +173,8 @@
 .container:hover::before,
 .container:hover::after {
   animation-play-state: running;
+  width: calc(100% + 30px);
+  height: calc(70% + 30px);
 }
 
 @keyframes spin {
