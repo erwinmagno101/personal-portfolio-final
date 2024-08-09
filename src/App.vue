@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import NavBar from './components/NavBar.vue'
+</script>
 
 <template>
-  <div class="border border-black bg-gray-500 p-5">gg</div>
+  <div class="font-inter">
+    <NavBar></NavBar>
+  </div>
 </template>
