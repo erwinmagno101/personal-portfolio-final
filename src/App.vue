@@ -1,6 +1,6 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
-import MainView from './components/MainView.vue'
+import MainView from './views/MainView.vue'
 </script>
 
 <template>
